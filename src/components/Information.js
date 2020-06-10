@@ -23,7 +23,7 @@ function Information() {
 }
 const bg = {
   backgroundColor: "#6b9c9b",
-  height: "60vh",
+  height: "80vh",
   marginLeft: "360px",
   border: "1px solid black",
 };

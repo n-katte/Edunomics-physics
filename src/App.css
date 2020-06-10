@@ -53,6 +53,11 @@ li:hover li a:hover {
   background: grey;
 }
 
+.main-navigation p{
+  padding-top: 10px;
+  display: inline-block;
+}
+
 .main-navigation li ul li {
   
   border-top: 0;
@@ -74,11 +79,11 @@ ul:after {
 
 /* sidenav */
 .sidenav {
-  height: 140%;
+  height: 156.2%;
   width: 360px;
   position: absolute;
   z-index: 1;
-  top: 12%;
+  top: 7%;
   left: 0;
   background-color: grey;
   overflow-x: hidden;

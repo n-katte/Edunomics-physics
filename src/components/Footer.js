@@ -22,6 +22,9 @@ const ContainerStyle = {
   textAlign: "center",
   lineHeight : "3rem",
   letterSpacing : "2px",
-  color : "white"
+  color : "white",
+  position : "absolute",
+  marginTop:  "550px",
+  width:"100%"
 };
 export default Footer;

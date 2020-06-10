@@ -21,10 +21,10 @@ class App extends Component {
             <Intro />
             <Footer />
           </Route>
-          <Route path="/home" component={Platform}><Navbar></Navbar><Sidenav></Sidenav><Boxes></Boxes><Endbox></Endbox></Route>
-          <Route path = "/downloads" component={Downloads}><Navbar></Navbar> <Downloads /><Sidenav></Sidenav><Endbox></Endbox></Route>
-          <Route path="/blank" component={Platform}> <Information  ></Information><Endbox></Endbox></Route>
-          <Route path ="/platform" component={Platform}><Navbar /><Boxes></Boxes> <Sidenav></Sidenav><Endbox></Endbox></Route>
+          <Route path="/home" component={Platform}><Navbar></Navbar><Sidenav></Sidenav><Boxes></Boxes><Endbox></Endbox><Footer></Footer></Route>
+          <Route path = "/downloads" component={Downloads}><Navbar></Navbar> <Downloads /><Sidenav></Sidenav><Endbox></Endbox><Footer></Footer></Route>
+          <Route path="/blank" component={Platform}> <Information  ></Information><Endbox></Endbox><Footer></Footer></Route>
+          <Route path ="/platform" component={Platform}><Navbar /><Boxes></Boxes> <Sidenav></Sidenav><Endbox></Endbox><Footer></Footer></Route>
           <Route path="/signup" component={SignUp}></Route>
         </Router>
 

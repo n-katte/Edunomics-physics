@@ -17,7 +17,7 @@ const bg = {
     paddingTop:"20px",
     paddingLeft:"40px",
     backgroundColor: "#6b9c9b",
-    height: "60vh",
+    height: "80vh",
     marginLeft: "360px",
     border: "0 solid black",
   };
